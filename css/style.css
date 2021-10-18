@@ -5,6 +5,10 @@ body {
   font-family: "IM Fell English SC", serif;
 }
 
+main {
+  margin-bottom: 40px;
+}
+
 header h1 {
   text-align: center;
   text-transform: uppercase;
@@ -30,6 +34,8 @@ header h1 {
   margin-left: 60px;
   /* border: 5px solid #75d1d0; */
   background: #bcc0c0;
+
+  border-radius: 12px;
 }
 
 img {
@@ -53,6 +59,7 @@ p {
 
 .reg {
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .group-second:before,
@@ -73,8 +80,9 @@ p {
 .group-second {
   position: absolute;
   top: 124.2px;
-  left: 450px;
+  left: 430px;
   background: #bcc0c0;
+  border-radius: 12px;
 }
 
 .group-second h2 {
@@ -84,4 +92,101 @@ p {
 .reg em {
   float: right;
   margin-right: 20px;
+}
+
+.group-three:before,
+.group-three:after {
+  content: " ";
+  display: table;
+}
+
+.group-three:after {
+  clear: both;
+}
+
+.group-three {
+  *zoom: 1;
+  width: 300px;
+  height: 600px;
+}
+
+.group-three {
+  position: absolute;
+  top: 124.2px;
+  left: 810px;
+  background: #bcc0c0;
+  border-radius: 12px;
+}
+
+.group-four:before,
+.group-four:after {
+  content: " ";
+  display: table;
+}
+
+.group-four:after {
+  clear: both;
+}
+
+.group-four {
+  *zoom: 1;
+  width: 300px;
+  height: 600px;
+}
+
+.group-four {
+  position: absolute;
+  top: 124.2px;
+  right: 60px;
+  background: #bcc0c0;
+  border-radius: 12px;
+}
+
+.group-four h2 {
+  color: #b30d0d;
+}
+
+.group-footer:before,
+.group-footer:after {
+  content: " ";
+  display: table;
+}
+
+.group-footer:after {
+  clear: both;
+}
+
+.group-footer {
+  *zoom: 1;
+  border-top: 1px solid #bcc0c0;
+}
+
+.group-footer {
+  height: 180px;
+}
+
+.group-footer img {
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.group-footer p {
+  position: absolute;
+  bottom: -127px;
+  left: 186px;
+}
+
+.group-footer h2 {
+  text-decoration: none;
+  position: absolute;
+  bottom: -60px;
+  left: 190px;
+}
+
+.group-footer h3 {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
