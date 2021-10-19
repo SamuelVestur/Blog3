@@ -3,4 +3,7 @@
 - pridane 2 layout
 
 * optimalizovat obrazky
-* dokoncit stranku + poslat
+* dokoncit stranku + poslat  
+  **-------------------------------**
+
+      Dokoncene :)
