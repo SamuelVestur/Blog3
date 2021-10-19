@@ -7,6 +7,8 @@ body {
 
 main {
   margin-bottom: 40px;
+  border-bottom: 1px solid #bcc0c0;
+  padding-bottom: 40px;
 }
 
 header h1 {
@@ -158,11 +160,11 @@ p {
 
 .group-footer {
   *zoom: 1;
-  border-top: 1px solid #bcc0c0;
 }
 
 .group-footer {
   height: 180px;
+  width: 600px;
 }
 
 .group-footer img {
@@ -174,19 +176,44 @@ p {
 }
 
 .group-footer p {
-  position: absolute;
-  bottom: -127px;
+  text-decoration: none;
+  position: relative;
+  bottom: 210px;
   left: 186px;
 }
 
 .group-footer h2 {
   text-decoration: none;
-  position: absolute;
-  bottom: -60px;
+  position: relative;
+  bottom: 180px;
   left: 190px;
 }
 
+.group-footer a {
+  text-decoration: none;
+}
+
 .group-footer h3 {
-  margin-left: 50px;
-  margin-bottom: 20px;
+  display: block;
+  position: relative;
+  bottom: 60px;
+  left: 40px;
+}
+
+.button {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.button a {
+  text-decoration: none;
+  padding: 20px;
+  background: #fd3b3b;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.button a:hover {
+  color: #0b504f;
 }
