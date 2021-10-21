@@ -209,7 +209,13 @@ p {
 .button a {
   text-decoration: none;
   padding: 20px;
-  background: #fd3b3b;
+
+  /* background: #fd3b3b url("../img/twitter.png") 7px 50% no-repeat; */
+
+  background: url("../img/icons.png") 7px 20px no-repeat,
+    linear-gradient(to bottom, #fd3b3b 20%, #c92626 76%);
+
+  padding-left: 33px;
   color: #fff;
   border-radius: 10px;
 }
